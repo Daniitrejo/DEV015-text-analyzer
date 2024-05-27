@@ -1,0 +1,46 @@
+/*selectores de tipo*/
+header {
+background-color: rgb(212, 113, 113); 
+color: rgb(201, 194, 184);
+text-align: center;
+padding: 20px;
+
+}
+footer{
+    background-color: rgb(182, 100, 100);
+    color: blanchedalmond;
+    text-align: center;
+    padding: 20px;
+}
+ /*selectores de clase*/
+ .recuento{
+    color: rgb(151, 105, 105);
+
+ }
+/*selector de id*/
+ #reset-button {
+   font-size: 20px;
+   color: rgb(113, 187, 187);
+   width: 170px;
+   height: 70px
+   padding:10px 20px; 
+   border: 2px solid black; 
+ }
+   [name]{
+      width: 150%;
+      height: 70px;
+      margin-top:  20px;
+      display: block;
+
+     }
+   .recuento{
+      background-color: rgb(152, 168, 189);
+      border: .5cm;
+      margin: 4%;
+      padding: 1%;
+   }
+    
+
+ 
+   
+ 
