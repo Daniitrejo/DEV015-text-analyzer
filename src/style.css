@@ -23,9 +23,9 @@ footer{
    color: rgb(113, 187, 187);
    width: 170px;
    height: 70px
-   padding:10px 20px; 
+   padding 10px 20px; 
    border: 2px solid black; 
- }
+   }
    [name]{
       width: 150%;
       height: 70px;
