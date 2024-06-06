@@ -1,0 +1,63 @@
+/*selectores de tipo*/
+header {
+  background-color: #d47171;
+  padding: 2px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-family: "Arial Black", sans-serif;
+  display: inline-block;
+  padding: 20px 10px;
+  border-radius: 25px; /*borde ovalado */
+  box-shadow: 0 0 0 5px purple, 0 0 0 10 px palevioletred; /*doble margen , diferente color */
+}
+
+body {
+  font-size: medium;
+  background-color: white;
+}
+
+textarea[name="user-input"] {
+  width: 50%;
+  height: 50px; /*hacer el cuadro de texto mas pequeño */
+  border: 2px solid purple;
+  border-radius: 25px; /*borde ovalado*/
+  padding: 10px;
+  box-shadow: 0 0 0 5px palevioletred, 0 0 0 10px purple;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.recuento {
+  background-color: white;
+  border: 2px solid pink;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 1.5em;
+  width: 40%;
+}
+/*selector de id*/
+#reset-button {
+  background-color: palevioletred;
+  color: black;
+  padding: 20px;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 0 0 0 5px purple;
+  font-family: "Arial Black", sans-serif;
+  font-size: 1.2em;
+  cursor: pointer;
+  float: right;
+  margin: 20px;
+}
+
+footer {
+  color: rgb(17, 17, 16);
+  text-align: right;
+  width: 10px;
+  margin: 0 0 0 20px;
+}
